@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="demoTestNG" parallel="false">
+  <test name="Test">
+  <groups>
+ 	<run>
+	   <include name="loginData"/>
+	   <include name="login"/>
+	 </run>  
+  </groups>
+    <classes>
+      <class name="com.java.selenium.testNgDemo.testNGDemo"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

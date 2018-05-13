@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demoTestNG" duration-ms="52139" started-at="2017-06-17T07:32:28Z" finished-at="2017-06-17T07:33:20Z">
+    <groups>
+      <group name="login">
+        <method signature="testNGDemo.loginPortal()[pri:2, instance:com.java.selenium.testNgDemo.testNGDemo@17e2f02]" name="loginPortal" class="com.java.selenium.testNgDemo.testNGDemo"/>
+      </group> <!-- login -->
+      <group name="loginData">
+        <method signature="testNGDemo.Addition(java.lang.String, java.lang.String)[pri:1, instance:com.java.selenium.testNgDemo.testNGDemo@17e2f02]" name="Addition" class="com.java.selenium.testNgDemo.testNGDemo"/>
+      </group> <!-- loginData -->
+    </groups>
+    <test name="Test" duration-ms="52139" started-at="2017-06-17T07:32:28Z" finished-at="2017-06-17T07:33:20Z">
+      <class name="com.java.selenium.testNgDemo.testNGDemo">
+        <test-method status="SKIP" signature="Addition(java.lang.String, java.lang.String)[pri:1, instance:com.java.selenium.testNgDemo.testNGDemo@17e2f02]" name="Addition" duration-ms="0" started-at="2017-06-17T13:02:28Z" data-provider="testData" finished-at="2017-06-17T13:02:28Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:150)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+        <test-method status="PASS" signature="loginPortal()[pri:2, instance:com.java.selenium.testNgDemo.testNGDemo@17e2f02]" name="loginPortal" duration-ms="51890" started-at="2017-06-17T13:02:28Z" finished-at="2017-06-17T13:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPortal -->
+      </class> <!-- com.java.selenium.testNgDemo.testNGDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- demoTestNG -->
+</testng-results>

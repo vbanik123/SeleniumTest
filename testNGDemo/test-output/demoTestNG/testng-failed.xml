@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demoTestNG]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="loginData"/>
+        <include name="login"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.java.selenium.testNgDemo.testNGDemo">
+        <methods>
+          <include name="Addition"/>
+        </methods>
+      </class> <!-- com.java.selenium.testNgDemo.testNGDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [demoTestNG] -->
